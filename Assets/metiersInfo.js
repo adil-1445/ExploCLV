@@ -1002,7 +1002,7 @@ const metiersInfo = {
 
 
 
-  "Service_de_garde_en_milieu_scolaire-profil.png": {
+  "service_de_garde_en_milieu_scolaire-profil.png": {
     titre: "Service de garde en milieu scolaire",
     taches: [
       "Observer et évaluer le développement global et les besoins des enfants d'âge préscolaire (maternelle) et scolaire (jusqu'à 12 ans).",
@@ -1776,7 +1776,7 @@ const metiersInfo = {
       "Tu es appliqué et méthodique."
     ]
   },
-  "MecaniqueVehiculesElectriques-profil.png": {
+  "mecaniquevehiculeselectriques-profil.png": {
     titre: "Mécanique de véhicules électriques",
     taches: [
       "Diagnostique les pannes électriques et électroniques sur des véhicules électriques.",

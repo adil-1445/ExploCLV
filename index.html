@@ -1225,11 +1225,11 @@
                     🎮 Le Jeux 20T1 (PPT)
                 </button>
                 <button class="small-doc-button"
-                    onclick="window.open('ActivteORI/20T1-secteurs/P31TraceElève20T1.xlsx', '_blank')">
+                    onclick="downloadWithPassword('ActivteORI/20T1-secteurs/P31TraceElève20T1.xlsx')">
                     📊 P31 Trace Élève (XLS)
                 </button>
                 <button class="small-doc-button"
-                    onclick="window.open('ActivteORI/20T1-secteurs/P32TraceElève20T1.xlsx', '_blank')">
+                    onclick="downloadWithPassword('ActivteORI/20T1-secteurs/P32TraceElève20T1.xlsx')">
                     📊 P32 Trace Élève (XLS)
                 </button>
                 <button class="small-doc-button"
@@ -4069,6 +4069,19 @@
             const grid = document.getElementById('metiersGrid') || document.body;
             const obs = new MutationObserver(tryBindAll);
             obs.observe(grid, { childList: true, subtree: true });
+            // Fonction pour télécharger un fichier protégé par mot de passe
+            window.downloadWithPassword = function (filePath) { // Attachez explicitement à window pour être sûr
+                const password = prompt("Ce fichier est protégé. Entrez le mot de passe :");
+                if (!password) return; // Annulé
+
+                // Vérification insensible à la casse
+                if (password.toLowerCase() === "clv2526") {
+                    window.open(filePath, '_blank');
+                } else {
+                    alert("Mot de passe incorrect.");
+                }
+            };
+
         })();
     </script>
 

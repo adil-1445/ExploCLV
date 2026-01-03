@@ -2,7 +2,7 @@
 // Structure: filename -> { titre, taches[], profil[] }
 
 const metiersInfo = {
-  "adjoint-administration-profil.PNG": {
+  "adjoint-administration-profil.png": {
     titre: "Adjoint Administration",
     taches: [
       "Préparer documents administratifs",
@@ -20,7 +20,7 @@ const metiersInfo = {
     ]
   },
 
-  "acheteuse-des-commerces-de-detail-et-en-gros-profil.PNG": {
+  "acheteuse-des-commerces-de-detail-et-en-gros-profil.png": {
     titre: "Acheteuse de commerce",
     taches: [
       "Détermine les quantités et achète des marchandises pour la vente",
@@ -35,7 +35,7 @@ const metiersInfo = {
     ]
   },
 
-  "acteur-profil.PNG": {
+  "acteur-profil.png": {
     titre: "Acteur",
     taches: [
       "Interprète et joue des personnages au théâtre, à la télévision, en publicité, au cinéma",
@@ -50,7 +50,7 @@ const metiersInfo = {
     ]
   },
 
-  "acupunteur-profil.PNG": {
+  "acupunteur-profil.png": {
     titre: "Acupuncteur",
     taches: [
       "Recueille l'information sur l'état de santé d'un patient et analyse les données",
@@ -65,7 +65,7 @@ const metiersInfo = {
     ]
   },
 
-  "affuteur-profil.PNG": {
+  "affuteur-profil.png": {
     titre: "Affûteur",
     taches: [
       "Repère et mesure des anomalies sur des scies et des couteaux",
@@ -81,7 +81,7 @@ const metiersInfo = {
     ]
   },
 
-  "agent-de-conservation-profil.PNG": {
+  "agent-de-conservation-profil.png": {
     titre: "Agent de conservation",
     taches: [
       "Patrouille en forêt et fait observer les règlements de chasse et de pêche sur un territoire",
@@ -97,7 +97,7 @@ const metiersInfo = {
     ]
   },
 
-  "agent-de-developpement-touristique-profil.PNG": {
+  "agent-de-developpement-touristique-profil.png": {
     titre: "Agent de développement touristique",
     taches: [
       "Analyse le potentiel touristique d'une destination",
@@ -113,7 +113,7 @@ const metiersInfo = {
     ]
   },
 
-  "agent-de-soutien-la-recherche-profil.PNG": {
+  "agent-de-soutien-la-recherche-profil.png": {
     titre: "Agent de soutien à la recherche",
     taches: [
       "Participe aux étapes de recherche en sciences humaines, administratives et santé publique",
@@ -129,7 +129,7 @@ const metiersInfo = {
     ]
   },
 
-  "agent-de-voyage-profil.PNG": {
+  "agent-de-voyage-profil.png": {
     titre: "Agent de voyage",
     taches: [
       "Vend des voyages de tout genre : croisière, soleil, culture, excursion",
@@ -145,7 +145,7 @@ const metiersInfo = {
     ]
   },
 
-  "agent-des-services-correctionnels-profil.PNG": {
+  "agent-des-services-correctionnels-profil.png": {
     titre: "Agent des services correctionnels",
     taches: [
       "Procède à l'admission des personnes",
@@ -161,7 +161,7 @@ const metiersInfo = {
     ]
   },
 
-  "agent-en-soutien-informatique-profil.PNG": {
+  "agent-en-soutien-informatique-profil.png": {
     titre: "Agent en soutien informatique",
     taches: [
       "Installe, configure et met à jour des systèmes d'exploitation, des logiciels et des périphériques dans les ordinateurs",
@@ -177,7 +177,7 @@ const metiersInfo = {
     ]
   },
 
-  "agent-et-courtier-assurance-profil.PNG": {
+  "agent-et-courtier-assurance-profil.png": {
     titre: "Agent et courtier d'assurance",
     taches: [
       "Analyse les besoins du client en matière d'assurances personnelles et d'assurances de dommages",
@@ -192,7 +192,7 @@ const metiersInfo = {
     ]
   },
 
-  "aide-de-maintien-domicile-profil.PNG": {
+  "aide-de-maintien-domicile-profil.png": {
     titre: "Aide de maintien à domicile",
     taches: [
       "Donne des soins d'assistance pour le maintien des personnes à domicile",
@@ -210,7 +210,7 @@ const metiersInfo = {
 
 
 
-  "animateur-3d-profil.PNG": {
+  "animateur-3d-profil.png": {
     titre: "Animateur 3D",
     taches: [
       "Conçoit et modélise des personnages et des décors.",
@@ -225,7 +225,7 @@ const metiersInfo = {
     ]
   },
 
-  "animateur-en-sports-et-loisirs-profil.PNG": {
+  "animateur-en-sports-et-loisirs-profil.png": {
     titre: "Animateur en sports et loisirs",
     taches: [
       "Organise des activités de sport et de loisir.",
@@ -241,7 +241,7 @@ const metiersInfo = {
     ]
   },
 
-  "animateur-radio-profil.PNG": {
+  "animateur-radio-profil.png": {
     titre: "Animateur radio",
     taches: [
       "Effectue des recherches et élabore la feuille de route de l’émission.",
@@ -256,7 +256,7 @@ const metiersInfo = {
     ]
   },
 
-  "arrangeur-musical-profil.PNG": {
+  "arrangeur-musical-profil.png": {
     titre: "Arrangeur musical",
     taches: [
       "Compose des pièces de musique : pop, rock, jazz, folklorique, World Beat, etc.",
@@ -272,7 +272,7 @@ const metiersInfo = {
     ]
   },
 
-  "artisan-profil.PNG": {
+  "artisan-profil.png": {
     titre: "Artisan",
     taches: [
       "Crée des produits originaux en un seul exemplaire ou en série limitée en tissus, en bois, en cuir, en métal, en céramique, en verre, en textile, etc.",
@@ -288,7 +288,7 @@ const metiersInfo = {
     ]
   },
 
-  "artiste-de-cirque-profil.PNG": {
+  "artiste-de-cirque-profil.png": {
     titre: "Artiste de cirque",
     taches: [
       "Élabore des numéros de cirque.",
@@ -303,7 +303,7 @@ const metiersInfo = {
     ]
   },
 
-  "assembleur-de-materiel-electronique-profil.PNG": {
+  "assembleur-de-materiel-electronique-profil.png": {
     titre: "Assembleur de matériel électronique",
     taches: [
       "Fabrique et assemble des fils et des câbles pour former des faisceaux.",
@@ -318,7 +318,7 @@ const metiersInfo = {
     ]
   },
 
-  "assembleur-de-plaques-et-de-charpentes-metalliques-profil.PNG": {
+  "assembleur-de-plaques-et-de-charpentes-metalliques-profil.png": {
     titre: "Assembleur de plaques et charpentes",
     taches: [
       "Mesure, trace, coupe et perce des tôles, des plaques et des profilés.",
@@ -333,7 +333,7 @@ const metiersInfo = {
     ]
   },
 
-  "assembleur-de-produits-de-plastique-profil.PNG": {
+  "assembleur-de-produits-de-plastique-profil.png": {
     titre: "Assembleur de produits de plastique",
     taches: [
       "Fabrique des gabarits et des moules en matériaux composites.",
@@ -349,7 +349,7 @@ const metiersInfo = {
     ]
   },
 
-  "assistant-technique-en-pharmacie-profil.PNG": {
+  "assistant-technique-en-pharmacie-profil.png": {
     titre: "Assistant technique en pharmacie",
     taches: [
       "Reçoit les clients et répond à leurs demandes.",
@@ -364,7 +364,7 @@ const metiersInfo = {
     ]
   },
 
-  "assistante-dentaire-profil.PNG": {
+  "assistante-dentaire-profil.png": {
     titre: "Assistante dentaire",
     taches: [
       "Prépare la salle de traitement et les instruments.",
@@ -380,7 +380,7 @@ const metiersInfo = {
     ]
   },
 
-  "bijoutier-profil.PNG": {
+  "bijoutier-profil.png": {
     titre: "Bijoutier",
     taches: [
       "Conçoit des bijoux.",
@@ -395,7 +395,7 @@ const metiersInfo = {
     ]
   },
 
-  "boucher-profil.PNG": {
+  "boucher-profil.png": {
     titre: "Boucher",
     taches: [
       "Effectue la réception et l’entreposage des viandes (bœuf, porc, volailles, etc.).",
@@ -410,7 +410,7 @@ const metiersInfo = {
     ]
   },
 
-  "boulanger-profil.PNG": {
+  "boulanger-profil.png": {
     titre: "Boulanger",
     taches: [
       "Confectionne des pains, des viennoiseries, des brioches et d’autres produits de boulangerie.",
@@ -425,7 +425,7 @@ const metiersInfo = {
     ]
   },
 
-  "briqueteur-macon-profil.PNG": {
+  "briqueteur-macon-profil.png": {
     titre: "Briqueteur-maçon",
     taches: [
       "Taille, scie et pose des briques, des blocs de pierre, des blocs de béton, des blocs de verre, etc.",
@@ -441,7 +441,7 @@ const metiersInfo = {
     ]
   },
 
-  "calorifugeur-profil.PNG": {
+  "calorifugeur-profil.png": {
     titre: "Calorifugeur",
     taches: [
       "Installe de l’isolant souple et rigide sur de la tuyauterie, des conduits d’air, des équipements industriels et des réservoirs.",
@@ -457,7 +457,7 @@ const metiersInfo = {
     ]
   },
 
-  "carreleur-profil.PNG": {
+  "carreleur-profil.png": {
     titre: "Carreleur",
     taches: [
       "Prépare les surfaces en appliquant des produits de liaison ou des ancrages.",
@@ -473,7 +473,7 @@ const metiersInfo = {
     ]
   },
 
-  "carrossier-profil.PNG": {
+  "carrossier-profil.png": {
     titre: "Carrossier",
     taches: [
       "Redresse les châssis des véhicules.",
@@ -489,7 +489,7 @@ const metiersInfo = {
     ]
   },
 
-  "charpentier-menuisier-profil.PNG": {
+  "charpentier-menuisier-profil.png": {
     titre: "Charpentier-menuisier",
     taches: [
       "Construit des coffrages pour des fondations.",
@@ -505,7 +505,7 @@ const metiersInfo = {
     ]
   },
 
-  "chaudronnier-profil.PNG": {
+  "chaudronnier-profil.png": {
     titre: "Chaudronnier",
     taches: [
       "Construit, assemble, modifie, entretient et répare des chaudières, des générateurs de vapeur, des réservoirs et des systèmes d’épuration.",
@@ -521,7 +521,7 @@ const metiersInfo = {
     ]
   },
 
-  "cimentier-applicateur-profil.PNG": {
+  "cimentier-applicateur-profil.png": {
     titre: "Cimentier-applicateur",
     taches: [
       "Prépare et met en place différentes surfaces en béton : planchers, trottoirs, bordures, par exemple.",
@@ -536,7 +536,7 @@ const metiersInfo = {
     ]
   },
 
-  "classeur-de-bois-debite-profil.PNG": {
+  "classeur-de-bois-debite-profil.png": {
     titre: "Classeur de bois débité",
     taches: [
       "Dirige les opérations de séchage du bois.",
@@ -551,7 +551,7 @@ const metiersInfo = {
     ]
   },
 
-  "coiffeuse-profil.PNG": {
+  "coiffeuse-profil.png": {
     titre: "Coiffeuse",
     taches: [
       "Coupe les cheveux selon des styles variés (gradué, uniforme, texturé, etc.).",
@@ -567,7 +567,7 @@ const metiersInfo = {
     ]
   },
 
-  "commis-aux-pices-mcaniques-et-accessoires-profil.PNG": {
+  "commis-aux-pices-mcaniques-et-accessoires-profil.png": {
     titre: "Commis aux pièces mécaniques",
     taches: [
       "Effectue la réception des marchandises pour des concessionnaires et des commerces indépendants",
@@ -583,7 +583,7 @@ const metiersInfo = {
     ]
   },
 
-  "commis-la-comptabilite-profil.PNG": {
+  "commis-la-comptabilite-profil.png": {
     titre: "Commis à la comptabilité",
     taches: [
       "Calcule et prépare des documents comme des factures, des relevés d'inventaire, des fiches de paye",
@@ -599,7 +599,7 @@ const metiersInfo = {
     ]
   },
 
-  "concepteur-de-costumes-et-accessoires-profil.PNG": {
+  "concepteur-de-costumes-et-accessoires-profil.png": {
     titre: "Concepteur de costumes et accessoires",
     taches: [
       "Conçoit, réalise ou fait la recherche de costumes et des accessoires pour la scène (théâtre, opéra, etc.) la télévision, le vidéo, le cinéma, les événements et les expositions.",
@@ -614,7 +614,7 @@ const metiersInfo = {
     ]
   },
 
-  "concepteur-exposition-profil.PNG": {
+  "concepteur-exposition-profil.png": {
     titre: "Concepteur d'exposition",
     taches: [
       "Conçoit des décors d’événements et des décors thématiques.",
@@ -630,7 +630,7 @@ const metiersInfo = {
     ]
   },
 
-  "concierge-profil.PNG": {
+  "concierge-profil.png": {
     titre: "Concierge",
     taches: [
       "Effectue des tâches d’entretien ménager.",
@@ -646,7 +646,7 @@ const metiersInfo = {
     ]
   },
 
-  "conducteur-de-camions-profil.PNG": {
+  "conducteur-de-camions-profil.png": {
     titre: "Conducteur de camions",
     taches: [
       "Planifie les voyages de livraison par camion.",
@@ -662,7 +662,7 @@ const metiersInfo = {
     ]
   },
 
-  "conducteur-de-machines-dabattage-darbres-profil.PNG": {
+  "conducteur-de-machines-dabattage-darbres-profil.png": {
     titre: "Conducteur de machines d'abattage",
     taches: [
       "Opère une machine de récolte de bois : tête multifonctionnelle, abatteuse-groupeuse, porteur ou transporteur de bois et débardeur à grappins, par exemple.",
@@ -677,7 +677,7 @@ const metiersInfo = {
     ]
   },
 
-  "conducteur-engins-de-chantier-profil.PNG": {
+  "conducteur-engins-de-chantier-profil.png": {
     titre: "Conducteur d'engins de chantier",
     taches: [
       "Opère une pelle mécanique, un bouteur (bulldozer), une niveleuse (grader), une épandeuse d’asphalte ou de béton et un rouleau.",
@@ -693,7 +693,7 @@ const metiersInfo = {
     ]
   },
 
-  "conseiller-en-sante-et-securite-au-travail-profil.PNG": {
+  "conseiller-en-sante-et-securite-au-travail-profil.png": {
     titre: "Conseiller en santé et sécurité",
     taches: [
       "Inspecte les milieux de travail pour s’assurer qu’il n’y a pas de danger à la sécurité des travailleurs.",
@@ -709,7 +709,7 @@ const metiersInfo = {
     ]
   },
 
-  "conseiller-en-vente-au-detail-profil.PNG": {
+  "conseiller-en-vente-au-detail-profil.png": {
     titre: "Conseiller en vente au détail",
     taches: [
       "Accueille la clientèle.",
@@ -725,7 +725,7 @@ const metiersInfo = {
     ]
   },
 
-  "conseiller-technique-en-entretien-et-reparation-de-vehicules-profil.PNG": {
+  "conseiller-technique-en-entretien-et-reparation-de-vehicules-profil.png": {
     titre: "Conseiller technique automobile",
     taches: [
       "Conseille la clientèle au sujet des réparations et des travaux d’entretien à effectuer sur des automobiles et d’autres types de véhicules.",
@@ -740,7 +740,7 @@ const metiersInfo = {
     ]
   },
 
-  "controleur-aerien-profil.PNG": {
+  "controleur-aerien-profil.png": {
     titre: "Contrôleur aérien",
     taches: [
       "Analyse des cartes de navigation aérienne et des renseignements météorologiques",
@@ -755,7 +755,7 @@ const metiersInfo = {
     ]
   },
 
-  "coordonnateur-de-la-logistique-de-production-graphique-profil.PNG": {
+  "coordonnateur-de-la-logistique-de-production-graphique-profil.png": {
     titre: "Coordonnateur logistique graphique",
     taches: [
       "Conseille la clientèle pour des projets d’impression (livres, emballages, articles promotionnels, etc.).",
@@ -771,7 +771,7 @@ const metiersInfo = {
     ]
   },
 
-  "couturiere-profil.PNG": {
+  "couturiere-profil.png": {
     titre: "Couturière",
     taches: [
       "Transforme des patrons.",
@@ -786,7 +786,7 @@ const metiersInfo = {
     ]
   },
 
-  "couvreur-profil.PNG": {
+  "couvreur-profil.png": {
     titre: "Couvreur",
     taches: [
       "Prépare le platelage et installe l’isolant.",
@@ -802,7 +802,7 @@ const metiersInfo = {
     ]
   },
 
-  "cuisinier-profil.PNG": {
+  "cuisinier-profil.png": {
     titre: "Cuisinier",
     taches: [
       "Conçoit des menus.",
@@ -817,7 +817,7 @@ const metiersInfo = {
     ]
   },
 
-  "danseur-profil.PNG": {
+  "danseur-profil.png": {
     titre: "Danseur",
     taches: [
       "Interprète des œuvres de danse classique ou contemporaine devant le public.",
@@ -832,7 +832,7 @@ const metiersInfo = {
     ]
   },
 
-  "dcoratrice-dintrieur-profil.PNG": {
+  "dcoratrice-dintrieur-profil.png": {
     titre: "Décoratrice d'intérieur",
     taches: [
       "Produit des esquisses et des plans de décoration intérieure pour des résidences, des espaces commerciaux et des bureaux",
@@ -847,7 +847,7 @@ const metiersInfo = {
     ]
   },
 
-  "denturologiste-profil.PNG": {
+  "denturologiste-profil.png": {
     titre: "Denturologiste",
     taches: [
       "Rencontre les patients, analyse leurs besoins et établit un plan de traitement denturologique.",
@@ -863,7 +863,7 @@ const metiersInfo = {
     ]
   },
 
-  "designer-dintrieur-profil.PNG": {
+  "designer-dintrieur-profil.png": {
     titre: "Designer d'intérieur",
     taches: [
       "Produit des esquisses et des plans de décoration intérieure pour des résidences, des espaces commerciaux et des bureaux",
@@ -878,7 +878,7 @@ const metiersInfo = {
     ]
   },
 
-  "designer-industriel-profil.PNG": {
+  "designer-industriel-profil.png": {
     titre: "Designer industriel",
     taches: [
       "Analyse des produits au regard de leur utilisation et de leur fonctionnement.",
@@ -894,7 +894,7 @@ const metiersInfo = {
     ]
   },
 
-  "dessinateur-de-mode-profil.PNG": {
+  "dessinateur-de-mode-profil.png": {
     titre: "Dessinateur de mode",
     taches: [
       "Décèle des tendances dans le domaine de la mode.",
@@ -910,7 +910,7 @@ const metiersInfo = {
     ]
   },
 
-  "dessinateur-en-architecture-profil.PNG": {
+  "dessinateur-en-architecture-profil.png": {
     titre: "Dessinateur en architecture",
     taches: [
       "Dessine des plans de résidences familiales et de résidences à logements.",
@@ -924,7 +924,7 @@ const metiersInfo = {
     ]
   },
 
-  "dessinateur-industriel-profil.PNG": {
+  "dessinateur-industriel-profil.png": {
     titre: "Dessinateur industriel",
     taches: [
       "Dessine des moteurs et des mécanismes à l’aide de logiciels.",
@@ -938,7 +938,7 @@ const metiersInfo = {
     ]
   },
 
-  "directeur-des-services-hebergement-profil.PNG": {
+  "directeur-des-services-hebergement-profil.png": {
     titre: "Directeur des services d'hébergement",
     taches: [
       "Planifie, coordonne et dirige les activités des hôtels, des lieux de villégiature et des résidences.",
@@ -954,7 +954,7 @@ const metiersInfo = {
     ]
   },
 
-  "ebniste-profil.PNG": {
+  "ebniste-profil.png": {
     titre: "Ébéniste",
     taches: [
       "Dessine et fabrique des meubles, des modules et des produits en bois",
@@ -970,7 +970,7 @@ const metiersInfo = {
     ]
   },
 
-  "eclairagiste-profil.PNG": {
+  "eclairagiste-profil.png": {
     titre: "Éclairagiste",
     taches: [
       "Conçoit, prépare et réalise des ambiances de lumière pour la scène (théâtre, danse, etc.), les événements, la télévision, le cinéma, la vidéo, ainsi que pour différentes expositions.",
@@ -985,7 +985,7 @@ const metiersInfo = {
     ]
   },
 
-  "educatrice-de-la-petite-enfance-profil.PNG": {
+  "educatrice-de-la-petite-enfance-profil.png": {
     titre: "Éducatrice de la petite enfance",
     taches: [
       "Observe et évalue le développement et les besoins des enfants : poupons, trottineurs et enfants d’âge préscolaire et scolaire.",
@@ -1002,7 +1002,7 @@ const metiersInfo = {
 
 
 
-  "Service_de_garde_en_milieu_scolaire-profil.PNG": {
+  "Service_de_garde_en_milieu_scolaire-profil.png": {
     titre: "Service de garde en milieu scolaire",
     taches: [
       "Observer et évaluer le développement global et les besoins des enfants d'âge préscolaire (maternelle) et scolaire (jusqu'à 12 ans).",
@@ -1020,7 +1020,7 @@ const metiersInfo = {
   },
 
 
-  "electricien-profil.PNG": {
+  "electricien-profil.png": {
     titre: "Électricien",
     taches: [
       "Installe et répare des circuits et de l’équipement électriques (moteurs, interrupteurs, disjoncteurs, automates, etc.).",
@@ -1034,7 +1034,7 @@ const metiersInfo = {
     ]
   },
 
-  "electromcanicien-profil.PNG": {
+  "electromcanicien-profil.png": {
     titre: "Électromécanicien",
     taches: [
       "Installe et modifie des équipements électriques, électroniques et divers types de bobinages.",
@@ -1049,7 +1049,7 @@ const metiersInfo = {
     ]
   },
 
-  "electronicien-appareils-audiovideo-profil.PNG": {
+  "electronicien-appareils-audiovideo-profil.png": {
     titre: "Électronicien appareils audiovidéo",
     taches: [
       "Vérifie le fonctionnement de mécanismes d’entraînement, de circuits électroniques et de circuits d’alimentation.",
@@ -1065,7 +1065,7 @@ const metiersInfo = {
     ]
   },
 
-  "eleveur-de-chevaux-profil.PNG": {
+  "eleveur-de-chevaux-profil.png": {
     titre: "Éleveur de chevaux",
     taches: [
       "Entraîne les chevaux pour l’équitation classique et western.",
@@ -1081,7 +1081,7 @@ const metiersInfo = {
     ]
   },
 
-  "eleveur-profil.PNG": {
+  "eleveur-profil.png": {
     titre: "Éleveur",
     taches: [
       "Gère et coordonne les activités d\'une ferme de production laitière, de production porcine, de production avicole, etc.",
@@ -1097,7 +1097,7 @@ const metiersInfo = {
     ]
   },
 
-  "entrepreneur-de-services-agricoles-profil.PNG": {
+  "entrepreneur-de-services-agricoles-profil.png": {
     titre: "Entrepreneur de services agricoles",
     taches: [
       "Élabore un plan de développement d’une production agricole (végétale ou animale).",
@@ -1112,7 +1112,7 @@ const metiersInfo = {
     ]
   },
 
-  "estheticienne-profil.PNG": {
+  "estheticienne-profil.png": {
     titre: "Esthéticienne",
     taches: [
       "Donne des soins de beauté pour le visage et le corps en utilisant des techniques et des produits spécialisés.",
@@ -1127,7 +1127,7 @@ const metiersInfo = {
     ]
   },
 
-  "estimateurvaluateur-en-btiment-profil.PNG": {
+  "estimateurvaluateur-en-btiment-profil.png": {
     titre: "Estimateur-évaluateur en bâtimenfot",
     taches: [
       "Établit les coûts détaillés de matériaux et de main-d'œuvre de projets de construction",
@@ -1143,7 +1143,7 @@ const metiersInfo = {
     ]
   },
 
-  "expert-en-sinistres-profil.PNG": {
+  "expert-en-sinistres-profil.png": {
     titre: "Expert en sinistres",
     taches: [
       "Effectue des enquêtes, par téléphone et sur la route, sur les circonstances d’un vol, d’un feu, d’un accident, etc.",
@@ -1158,7 +1158,7 @@ const metiersInfo = {
     ]
   },
 
-  "ferblantier-profil.PNG": {
+  "ferblantier-profil.png": {
     titre: "Ferblantier",
     taches: [
       "Monte, installe et répare des systèmes de climatisation, de ventilation, de chauffage à air chaud, d’évaporation de liquide ou de gaz, etc.",
@@ -1173,7 +1173,7 @@ const metiersInfo = {
     ]
   },
 
-  "ferrailleur-profil.PNG": {
+  "ferrailleur-profil.png": {
     titre: "Ferrailleur",
     taches: [
       "Installe des barres et des treillis en acier qui servent à renforcer le béton utilisé pour la construction de murs, de colonnes, de dalles et d’escaliers.",
@@ -1188,7 +1188,7 @@ const metiersInfo = {
     ]
   },
 
-  "fleuriste-profil.PNG": {
+  "fleuriste-profil.png": {
     titre: "Fleuriste",
     taches: [
       "Reçoit les clients et les conseille en matière de produits de fleuristerie.",
@@ -1204,7 +1204,7 @@ const metiersInfo = {
     ]
   },
 
-  "foreur-dynamiteur-profil.PNG": {
+  "foreur-dynamiteur-profil.png": {
     titre: "Foreur-dynamiteur",
     taches: [
       "Conduit la machinerie et l’outillage de forage (pneumatique, hydraulique, fond de trou, par exemple).",
@@ -1220,7 +1220,7 @@ const metiersInfo = {
     ]
   },
 
-  "foreur-profil.PNG": {
+  "foreur-profil.png": {
     titre: "Foreur",
     taches: [
       "Démonte et transporte l’équipement de forage.",
@@ -1236,7 +1236,7 @@ const metiersInfo = {
     ]
   },
 
-  "gerant-de-commerces-de-detail-profil.PNG": {
+  "gerant-de-commerces-de-detail-profil.png": {
     titre: "Gérant de commerces de détail",
     taches: [
       "Analyse et traite des données commerciales.",
@@ -1252,7 +1252,7 @@ const metiersInfo = {
     ]
   },
 
-  "gestionnaire-de-projets-de-construction-profil.PNG": {
+  "gestionnaire-de-projets-de-construction-profil.png": {
     titre: "Gestionnaire de projets de construction",
     taches: [
       "Interprète des plans et des devis de construction.",
@@ -1267,7 +1267,7 @@ const metiersInfo = {
     ]
   },
 
-  "gouvernante-hoteliere-profil.PNG": {
+  "gouvernante-hoteliere-profil.png": {
     titre: "Gouvernante hôtelière",
     taches: [
       "Coordonne le travail d’une équipe de femmes de chambre dans les hôtels et les auberges.",
@@ -1283,7 +1283,7 @@ const metiersInfo = {
     ]
   },
 
-  "graphiste-profil.PNG": {
+  "graphiste-profil.png": {
     titre: "Graphiste",
     taches: [
       "Élabore des concepts visuels.",
@@ -1298,7 +1298,7 @@ const metiersInfo = {
     ]
   },
 
-  "grutier-profil.PNG": {
+  "grutier-profil.png": {
     titre: "Grutier",
     taches: [
       "Transporte et assemble des grues mobiles et des grues à tour.",
@@ -1314,7 +1314,7 @@ const metiersInfo = {
     ]
   },
 
-  "guide-touristique-profil.PNG": {
+  "guide-touristique-profil.png": {
     titre: "Guide touristique",
     taches: [
       "Prépare la visite : information culturelle, itinéraire, matériel nécessaire, etc.",
@@ -1330,7 +1330,7 @@ const metiersInfo = {
     ]
   },
 
-  "horloger-profil.PNG": {
+  "horloger-profil.png": {
     titre: "Horloger",
     taches: [
       "Nettoie et règle les mécanismes d’horloges et de montres.",
@@ -1345,7 +1345,7 @@ const metiersInfo = {
     ]
   },
 
-  "hyginiste-dentaire-profil.PNG": {
+  "hyginiste-dentaire-profil.png": {
     titre: "Hygiéniste dentaire",
     taches: [
       "Prend des radiographies",
@@ -1363,7 +1363,7 @@ const metiersInfo = {
     ]
   },
 
-  "illustrateur-profil.PNG": {
+  "illustrateur-profil.png": {
     titre: "Illustrateur",
     taches: [
       "Élabore des concepts d’illustration.",
@@ -1378,7 +1378,7 @@ const metiersInfo = {
     ]
   },
 
-  "infirmiere-profil.PNG": {
+  "infirmiere-profil.png": {
     titre: "Infirmière autorisée",
     taches: [
       "Évalue la condition physique et mentale d’une personne.",
@@ -1393,7 +1393,7 @@ const metiersInfo = {
     ]
   },
 
-  "infirmire-auxiliaire-profil.PNG": {
+  "infirmire-auxiliaire-profil.png": {
     titre: "Infirmière auxiliaire",
     taches: [
       "Observe les signes vitaux des patients",
@@ -1409,7 +1409,7 @@ const metiersInfo = {
     ]
   },
 
-  "infographiste-profil.PNG": {
+  "infographiste-profil.png": {
     titre: "Infographiste",
     taches: [
       "Prend des photographies, numérise et retouche des images.",
@@ -1425,7 +1425,7 @@ const metiersInfo = {
     ]
   },
 
-  "inhalotherapeute-profil.PNG": {
+  "inhalotherapeute-profil.png": {
     titre: "Inhalothérapeute",
     taches: [
       "Effectue des prélèvements (gazométrie sanguine, sécrétions bronchiques, etc.).",
@@ -1441,7 +1441,7 @@ const metiersInfo = {
     ]
   },
 
-  "inspecteur-de-produits-alimentaires-profil.PNG": {
+  "inspecteur-de-produits-alimentaires-profil.png": {
     titre: "Inspecteur de produits alimentaires",
     taches: [
       "Fait la promotion de l’hygiène et de la sécurité auprès des employés.",
@@ -1457,7 +1457,7 @@ const metiersInfo = {
     ]
   },
 
-  "installateur-de-systemes-de-securite-profil.PNG": {
+  "installateur-de-systemes-de-securite-profil.png": {
     titre: "Installateur de systèmes de sécurité",
     taches: [
       "Installe des systèmes de sécurité et de surveillance (avertisseurs d’incendie, dispositifs antivol, contrôle d’accès, caméra vidéo, par exemple) dans des résidences privées et des édifices commerciaux, industriels et publics.",
@@ -1473,7 +1473,7 @@ const metiersInfo = {
     ]
   },
 
-  "installateur-et-reparateur-equipements-de-telecommunication-profil.PNG": {
+  "installateur-et-reparateur-equipements-de-telecommunication-profil.png": {
     titre: "Installateur équipements télécom",
     taches: [
       "Installe des antennes de télécommunication.",
@@ -1489,7 +1489,7 @@ const metiersInfo = {
     ]
   },
 
-  "integrateur-multimedia-profil.PNG": {
+  "integrateur-multimedia-profil.png": {
     titre: "Intégrateur multimédia",
     taches: [
       "Produit des pages web.",
@@ -1505,7 +1505,7 @@ const metiersInfo = {
     ]
   },
 
-  "lagueur-profil.PNG": {
+  "lagueur-profil.png": {
     titre: "Élagueur",
     taches: [
       "Élague et taille des arbres en milieu urbain et en milieu semi-urbain",
@@ -1520,7 +1520,7 @@ const metiersInfo = {
     ]
   },
 
-  "lectronicien-industriel-profil.PNG": {
+  "lectronicien-industriel-profil.png": {
     titre: "Électronicien industriel",
     taches: [
       "Installe et modifie du matériel électrique industriel, des commandes électriques et électroniques ainsi que de l'équipement électrique de puissance",
@@ -1534,7 +1534,7 @@ const metiersInfo = {
     ]
   },
 
-  "machiniste-sur-machines-cnc-profil.PNG": {
+  "machiniste-sur-machines-cnc-profil.png": {
     titre: "Machiniste sur machines CNC",
     taches: ["prépare et programme la machine (entre les instructions dans l’ordinateur)",
       "installe les pièces et les outils",
@@ -1547,7 +1547,7 @@ const metiersInfo = {
       "Tu aimes voir le résultat de ton travail."]
   },
 
-  "maitre-hotel-profil.PNG": {
+  "maitre-hotel-profil.png": {
     titre: "Maître d'hôtel",
     taches: [
       "Coordonne et supervise le travail des employés d’un restaurant.",
@@ -1563,7 +1563,7 @@ const metiersInfo = {
     ]
   },
 
-  "manoeuvre-de-exploitation-forestiere-profil.PNG": {
+  "manoeuvre-de-exploitation-forestiere-profil.png": {
     titre: "Manoeuvre de l'exploitation forestière",
     taches: [
       "Plante différents arbres dans le cadre de travaux de reboisement.",
@@ -1578,7 +1578,7 @@ const metiersInfo = {
     ]
   },
 
-  "manoeuvre-en-aquaculture-profil.PNG": {
+  "manoeuvre-en-aquaculture-profil.png": {
     titre: "Manoeuvre en aquaculture",
     taches: [
       "Fabrique des structures de captage et d’élevage et les installe en mer.",
@@ -1593,7 +1593,7 @@ const metiersInfo = {
     ]
   },
 
-  "matelot-profil.PNG": {
+  "matelot-profil.png": {
     titre: "Matelot",
     taches: [
       "Effectue le chargement de la cargaison : véhicules, conteneurs, marchandises en vrac, etc.",
@@ -1608,7 +1608,7 @@ const metiersInfo = {
     ]
   },
 
-  "mcanicien-de-vhicules-lgers-profil.PNG": {
+  "mcanicien-de-vhicules-lgers-profil.png": {
     titre: "Mécanicien de véhicules légers",
     taches: [
       "Diagnostique les pannes sur des motocyclettes, des motoneiges, des moteurs hors-bord, des véhicules tout-terrain, des petits tracteurs, des souffleuses à neige, des tondeuses à gazon, etc.",
@@ -1624,7 +1624,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-ascenseur-profil.PNG": {
+  "mecanicien-ascenseur-profil.png": {
     titre: "Mécanicien d'ascenseur",
     taches: [
       "Installe des systèmes de déplacement mécanisé (ascenseurs, escaliers roulants, monte-charge, trottoirs roulants, etc.).",
@@ -1640,7 +1640,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-de-machines-fixes-profil.PNG": {
+  "mecanicien-de-machines-fixes-profil.png": {
     titre: "Mécanicien de machines fixes",
     taches: [
       "Surveille le fonctionnement des centrales thermiques présentes dans les bâtiments et dans les usines de transformation.",
@@ -1656,7 +1656,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-de-motocyclettes-profil.PNG": {
+  "mecanicien-de-motocyclettes-profil.png": {
     titre: "Mécanicien de motocyclettes",
     taches: [
       "Diagnostique les pannes sur des motocyclettes à deux et à trois roues.",
@@ -1671,7 +1671,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-de-vehicules-lourds-routiers-profil.PNG": {
+  "mecanicien-de-vehicules-lourds-routiers-profil.png": {
     titre: "Mécanicien de véhicules lourds",
     taches: [
       "Diagnostique les pannes sur des camions, des autobus et des véhicules d’urgence.",
@@ -1686,7 +1686,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-en-refrigration-et-climatisation-profil.PNG": {
+  "mecanicien-en-refrigration-et-climatisation-profil.png": {
     titre: "Mécanicien en réfrigération",
     taches: [
       "Installe et soude la tuyauterie des systèmes de climatisation et de réfrigération.",
@@ -1701,7 +1701,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-engins-de-chantier-profil.PNG": {
+  "mecanicien-engins-de-chantier-profil.png": {
     titre: "Mécanicien d'engins de chantier",
     taches: [
       "Diagnostique les pannes sur des pelles mécaniques, des bouteurs (bulldozer), des niveleuses (grader), des chargeuses (pépine), etc.",
@@ -1716,7 +1716,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-equipement-agricole-profil.PNG": {
+  "mecanicien-equipement-agricole-profil.png": {
     titre: "Mécanicien d'équipement agricole",
     taches: [
       "Diagnostique les pannes sur des tracteurs, des moissonneuses-batteuses, des presses à foin, des machines à semence, etc.",
@@ -1731,7 +1731,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-et-controleur-aeronefs-profil.PNG": {
+  "mecanicien-et-controleur-aeronefs-profil.png": {
     titre: "Mécanicien et contrôleur d'aéronefs",
     taches: [
       "Inspecte et vérifie les différents composants et systèmes présents sur des avions et des hélicoptères (systèmes hydrauliques, moteurs, turbines, systèmes de navigation, structures, etc.).",
@@ -1747,7 +1747,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanicien-industriel-profil.PNG": {
+  "mecanicien-industriel-profil.png": {
     titre: "Mécanicien industriel",
     taches: [
       "Vérifie le fonctionnement d’un équipement industriel.",
@@ -1762,7 +1762,7 @@ const metiersInfo = {
     ]
   },
 
-  "mecanique-automobile-profil.PNG": {
+  "mecanique-automobile-profil.png": {
     titre: "Mécanique automobile",
     taches: [
       "Diagnostique les pannes sur des automobiles de différentes marques.",
@@ -1776,7 +1776,7 @@ const metiersInfo = {
       "Tu es appliqué et méthodique."
     ]
   },
-  "MecaniqueVehiculesElectriques-profil.PNG": {
+  "MecaniqueVehiculesElectriques-profil.png": {
     titre: "Mécanique de véhicules électriques",
     taches: [
       "Diagnostique les pannes électriques et électroniques sur des véhicules électriques.",
@@ -1792,7 +1792,7 @@ const metiersInfo = {
     ]
   },
 
-  "mineur-dextraction-profil.PNG": {
+  "mineur-dextraction-profil.png": {
     titre: "Mineur d'extraction",
     taches: [
       "Exécute des travaux de forage et de dynamitage",
@@ -1807,7 +1807,7 @@ const metiersInfo = {
     ]
   },
 
-  "monteur-aeronefs-profil.PNG": {
+  "monteur-aeronefs-profil.png": {
     titre: "Monteur d'aéronefs",
     taches: [
       "Effectue des opérations d’usinage sur des matériaux métalliques.",
@@ -1822,7 +1822,7 @@ const metiersInfo = {
     ]
   },
 
-  "monteur-dappareils-et-daccessoires-electriques-profil.PNG": {
+  "monteur-dappareils-et-daccessoires-electriques-profil.png": {
     titre: "Monteur d'appareils électriques",
     taches: [
       "Fabrique et assemble des fils et des câbles pour former des faisceaux.",
@@ -1836,7 +1836,7 @@ const metiersInfo = {
     ]
   },
 
-  "monteur-de-charpentes-metalliques-profil.PNG": {
+  "monteur-de-charpentes-metalliques-profil.png": {
     titre: "Monteur de charpentes métalliques",
     taches: [
       "Assemble et installe des poutres, des colonnes et d’autres éléments de structure en acier.",
@@ -1852,7 +1852,7 @@ const metiersInfo = {
     ]
   },
 
-  "monteur-de-lignes-profil.PNG": {
+  "monteur-de-lignes-profil.png": {
     titre: "Monteur de lignes",
     taches: [
       "Construit des pylônes et d’autres structures métalliques.",
@@ -1867,7 +1867,7 @@ const metiersInfo = {
     ]
   },
 
-  "monteur-installation-au-gaz-profil.PNG": {
+  "monteur-installation-au-gaz-profil.png": {
     titre: "Monteur d'installation au gaz",
     taches: [
       "Inspecte et entretient des appareils au gaz (brûleurs commerciaux, appareils de chauffage, chaudières d’eau chaude, etc.).",
@@ -1882,7 +1882,7 @@ const metiersInfo = {
     ]
   },
 
-  "mouliste-de-moules-en-metal-profil.PNG": {
+  "mouliste-de-moules-en-metal-profil.png": {
     titre: "Mouliste de moules en métal",
     taches: [
       "Fabrique et polit divers types de moules industriels.",
@@ -1898,7 +1898,7 @@ const metiersInfo = {
     ]
   },
 
-  "musicien-profil.PNG": {
+  "musicien-profil.png": {
     titre: "Musicien",
     taches: [
       "Joue, seul ou en groupe, des pièces de musique rock, pop, jazz, blues, folklorique, World Beat, etc.",
@@ -1913,7 +1913,7 @@ const metiersInfo = {
     ]
   },
 
-  "officier-de-navigation-profil.PNG": {
+  "officier-de-navigation-profil.png": {
     titre: "Officier de navigation",
     taches: [
       "Gouverne des navires de transport, des remorqueurs, des barges et des traversiers.",
@@ -1929,7 +1929,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-appareils-reprographier-profil.PNG": {
+  "operateur-appareils-reprographier-profil.png": {
     titre: "Opérateur d'appareils à reprographier",
     taches: [
       "Conseille la clientèle.",
@@ -1944,7 +1944,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-de-machines-dans-les-usines-de-pate-papier-profil.PNG": {
+  "operateur-de-machines-dans-les-usines-de-pate-papier-profil.png": {
     titre: "Opérateur de machines - pâte à papier",
     taches: [
       "Surveille le fonctionnement des procédés de transformation du bois en pâtes et papiers",
@@ -1960,7 +1960,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-de-machines-de-traitement-des-matieres-plastiques-profil.PNG": {
+  "operateur-de-machines-de-traitement-des-matieres-plastiques-profil.png": {
     titre: "Opérateur de machines - plastiques",
     taches: [
       "Règle et entretient des machines numériques et traditionnelles servant à transformer les plastiques et les caoutchoucs.",
@@ -1975,7 +1975,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-de-machines-de-traitement-des-metaux-profil.PNG": {
+  "operateur-de-machines-de-traitement-des-metaux-profil.png": {
     titre: "Opérateur de machines - métaux",
     taches: [
       "Surveille le fonctionnement des procédés de traitement des minerais (fer, cuivre, or, par exemple);",
@@ -1990,7 +1990,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-de-machines-dusinage-profil.PNG": {
+  "operateur-de-machines-dusinage-profil.png": {
     titre: "Opérateur de machines d'usinage",
     taches: [
       "Règle, programme et opère les machines-outils : tour, fraiseuse, aléseuse, cisaille, etc.",
@@ -2006,7 +2006,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-de-machines-scier-dans-les-scieries-profil.PNG": {
+  "operateur-de-machines-scier-dans-les-scieries-profil.png": {
     titre: "Opérateur de machines à scier",
     taches: [
       "Scie des feuillus, des pins blancs, des pins rouges, ainsi que d’autres résineux.",
@@ -2022,7 +2022,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-de-presse-commercial-profil.PNG": {
+  "operateur-de-presse-commercial-profil.png": {
     titre: "Opérateur de presse commercial",
     taches: [
       "Prépare des plaques, des papiers, des encres et des solutions de mouillage.",
@@ -2038,7 +2038,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-de-procedes-chimiques-profil.PNG": {
+  "operateur-de-procedes-chimiques-profil.png": {
     titre: "Opérateur de procédés chimiques",
     taches: [
       "Surveille le fonctionnement des procédés de transformation : électrochimie, électrolyse, polymérisation, bioprocédés, etc.",
@@ -2053,7 +2053,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-engins-de-debardage-profil.PNG": {
+  "operateur-engins-de-debardage-profil.png": {
     titre: "Opérateur d'engins de débardage",
     taches: [
       "Attache les arbres abattus.",
@@ -2068,7 +2068,7 @@ const metiersInfo = {
     ]
   },
 
-  "operateur-installations-du-traitement-eau-et-dechets-profil.PNG": {
+  "operateur-installations-du-traitement-eau-et-dechets-profil.png": {
     titre: "Opérateur de traitement d'eau",
     taches: [
       "Surveille le fonctionnement des procédés de traitement.",
@@ -2084,7 +2084,7 @@ const metiersInfo = {
     ]
   },
 
-  "oprateur-de-machineries-en-voirie-forestire-profil.PNG": {
+  "oprateur-de-machineries-en-voirie-forestire-profil.png": {
     titre: "Opérateur de machineries en voirie",
     taches: ["Opère une pelle mécanique, un bouteur (bulldozer) et une niveleuse (grader).",
       "Construit des chemins forestiers et installe des ponceaux dans les ruisseaux.",
@@ -2096,7 +2096,7 @@ const metiersInfo = {
       "Tu as une bonne endurance physique."]
   },
 
-  "ouvrier-agricole-production-animale-profil.PNG": {
+  "ouvrier-agricole-production-animale-profil.png": {
     titre: "Ouvrier agricole - production animale",
     taches: [
       "Nourrit les animaux (bovins, porcs, agneaux, par exemple).",
@@ -2111,7 +2111,7 @@ const metiersInfo = {
     ]
   },
 
-  "ouvrier-de-fonderie-profil.PNG": {
+  "ouvrier-de-fonderie-profil.png": {
     titre: "Ouvrier de fonderie",
     taches: [
       "Fabrique des moules permanents et non permanents selon diverses techniques et avec différents matériaux.",
@@ -2126,7 +2126,7 @@ const metiersInfo = {
     ]
   },
 
-  "ouvrier-de-pepiniere-et-de-serres-profil.PNG": {
+  "ouvrier-de-pepiniere-et-de-serres-profil.png": {
     titre: "Ouvrier de pépinière et de serres",
     taches: [
       "Prépare le sol et le site de culture (avec une herse à disques, un cultivateur, par exemple).",
@@ -2142,7 +2142,7 @@ const metiersInfo = {
     ]
   },
 
-  "ouvrier-en-sylviculture-et-en-exploitation-forestire-profil.PNG": {
+  "ouvrier-en-sylviculture-et-en-exploitation-forestire-profil.png": {
     titre: "Ouvrier en sylviculture",
     taches: [
       "Effectue l’inventaire forestier.",
@@ -2160,7 +2160,7 @@ const metiersInfo = {
     ]
   },
 
-  "patissier-profil.PNG": {
+  "patissier-profil.png": {
     titre: "Pâtissier",
     taches: [
       "Confectionner des gâteaux, des biscuits, des produits en chocolat, des crèmes, des entremets, des tartes, des desserts, etc.",
@@ -2175,7 +2175,7 @@ const metiersInfo = {
     ]
   },
 
-  "patronniere-de-vetements-profil.PNG": {
+  "patronniere-de-vetements-profil.png": {
     titre: "Patronnière de vêtements",
     taches: [
       "Réalise et met au point des patrons de vêtements ou d’autres articles textiles et en cuir.",
@@ -2190,7 +2190,7 @@ const metiersInfo = {
     ]
   },
 
-  "pecheur-professionnel-profil.PNG": {
+  "pecheur-professionnel-profil.png": {
     titre: "Pêcheur professionnel",
     taches: [
       "Navigue un bateau de pêche et dirige l’équipe de pêcheurs.",
@@ -2206,7 +2206,7 @@ const metiersInfo = {
     ]
   },
 
-  "peintre-en-btiment-profil.PNG": {
+  "peintre-en-btiment-profil.png": {
     titre: "Peintre en bâtiment",
     taches: ["Prépare des surfaces en bois, en gypse, en métal, etc.",
       "Applique, au pinceau et avec un équipement de pulvérisation, de la peinture, des vernis et d’autres produits.",
@@ -2221,7 +2221,7 @@ const metiersInfo = {
     ]
   },
 
-  "photographe-profil.PNG": {
+  "photographe-profil.png": {
     titre: "Photographe",
     taches: [
       "Réalise des prises de vues en studio et en extérieur.",
@@ -2236,7 +2236,7 @@ const metiersInfo = {
     ]
   },
 
-  "pilote-aeronefs-profil.PNG": {
+  "pilote-aeronefs-profil.png": {
     titre: "Pilote d'aéronefs",
     taches: [
       "Analyse des cartes aéronautiques et des renseignements météorologiques.",
@@ -2252,7 +2252,7 @@ const metiersInfo = {
     ]
   },
 
-  "planificateur-de-congres-et-evenement-profil.PNG": {
+  "planificateur-de-congres-et-evenement-profil.png": {
     titre: "Planificateur de congrès et événements",
     taches: [
       "Développe des projets touristiques et des outils promotionnels.",
@@ -2268,7 +2268,7 @@ const metiersInfo = {
     ]
   },
 
-  "platrier-profil.PNG": {
+  "platrier-profil.png": {
     titre: "Plâtrier",
     taches: [
       "Pose du ruban sur les joints des feuilles de gypse.",
@@ -2284,7 +2284,7 @@ const metiersInfo = {
     ]
   },
 
-  "plombier-profil.PNG": {
+  "plombier-profil.png": {
     titre: "Plombier",
     taches: [
       "Lit et analyse des plans et des devis de plomberie et de chauffage.",
@@ -2299,7 +2299,7 @@ const metiersInfo = {
     ]
   },
 
-  "policier-profil.PNG": {
+  "policier-profil.png": {
     titre: "Policier",
     taches: [
       "Patrouille le territoire en voiture, à pied et en vélo.",
@@ -2315,7 +2315,7 @@ const metiersInfo = {
     ]
   },
 
-  "pompier-profil.PNG": {
+  "pompier-profil.png": {
     titre: "Pompier",
     taches: [
       "Combat les incendies.",
@@ -2331,7 +2331,7 @@ const metiersInfo = {
     ]
   },
 
-  "poseur-de-gicleurs-profil.PNG": {
+  "poseur-de-gicleurs-profil.png": {
     titre: "Poseur de gicleurs",
     taches: [
       "Installe des systèmes de protection-incendie à eau, à air, à préaction, etc.",
@@ -2347,7 +2347,7 @@ const metiersInfo = {
     ]
   },
 
-  "poseur-de-revetements-interieur-profil.PNG": {
+  "poseur-de-revetements-interieur-profil.png": {
     titre: "Poseur de revêtements intérieurs",
     taches: [
       "Prépare des surfaces avant de procéder à l’installation.",
@@ -2361,7 +2361,7 @@ const metiersInfo = {
     ]
   },
 
-  "poseur-de-systemes-interieurs-profil.PNG": {
+  "poseur-de-systemes-interieurs-profil.png": {
     titre: "Poseur de systèmes d'intérieurs",
     taches: [
       "Assemble les colombages métalliques de murs extérieurs et intérieurs.",
@@ -2377,7 +2377,7 @@ const metiersInfo = {
     ]
   },
 
-  "prepose-entretien-appareils-electromenagers-profil.PNG": {
+  "prepose-entretien-appareils-electromenagers-profil.png": {
     titre: "Préposé entretien électroménagers",
     taches: [
       "Vérifie le fonctionnement des mécanismes d’entraînement, des circuits électroniques et des circuits d’alimentation des appareils électroménagers (lave-vaisselle, cuisinière, laveuse, sécheuse, micro-ondes, déshumidificateur, climatiseur, etc.).",
@@ -2393,7 +2393,7 @@ const metiersInfo = {
     ]
   },
 
-  "producteur-de-sirop-derable-profil.PNG": {
+  "producteur-de-sirop-derable-profil.png": {
     titre: "Producteur de sirop d'érable",
     taches: [
       "Aménage l’érablière.",
@@ -2408,7 +2408,7 @@ const metiersInfo = {
     ]
   },
 
-  "prpos-aux-bnficiaires-profil.PNG": {
+  "prpos-aux-bnficiaires-profil.png": {
     titre: "Préposé aux bénéficiaires",
     taches: [
       "Donne des soins d'hygiène aux patients",
@@ -2424,7 +2424,7 @@ const metiersInfo = {
     ]
   },
 
-  "receptionniste-hotel-profil.PNG": {
+  "receptionniste-hotel-profil.png": {
     titre: "Réceptionniste d'hôtel",
     taches: [
       "Consigne les réservations et accueille la clientèle.",
@@ -2440,7 +2440,7 @@ const metiersInfo = {
     ]
   },
 
-  "rembourreur-profil.PNG": {
+  "rembourreur-profil.png": {
     titre: "Rembourreur",
     taches: [
       "Rembourre des meubles neufs.",
@@ -2456,7 +2456,7 @@ const metiersInfo = {
     ]
   },
 
-  "representant-des-services-financiers-profil.PNG": {
+  "representant-des-services-financiers-profil.png": {
     titre: "Représentant des services financiers",
     taches: [
       "Conseille la clientèle en matière de produits financiers (comptes personnels, crédits, investissements, etc.).",
@@ -2472,7 +2472,7 @@ const metiersInfo = {
     ]
   },
 
-  "representant-des-ventes-profil.PNG": {
+  "representant-des-ventes-profil.png": {
     titre: "Représentant des ventes",
     taches: [
       "Fait la promotion de produits et de services auprès de détaillants et de grossistes.",
@@ -2488,7 +2488,7 @@ const metiersInfo = {
     ]
   },
 
-  "restaurateur-finisseur-meubles-profil.PNG": {
+  "restaurateur-finisseur-meubles-profil.png": {
     titre: "Restaurateur-finisseur de meubles",
     taches: [
       "Effectue la finition de meubles neufs.",
@@ -2504,7 +2504,7 @@ const metiersInfo = {
     ]
   },
 
-  "scenographe-profil.PNG": {
+  "scenographe-profil.png": {
     titre: "Scénographe",
     taches: [
       "Planifie et réalise des décors et des espaces scénographiques pour la scène (théâtre, opéra, etc.) la télévision, le vidéo, le cinéma, les événements et les expositions.",
@@ -2519,7 +2519,7 @@ const metiersInfo = {
     ]
   },
 
-  "secretaire-juridique-profil.PNG": {
+  "secretaire-juridique-profil.png": {
     titre: "Secrétaire juridique",
     taches: [
       "Reçoit les appels et accueille la clientèle.",
@@ -2534,7 +2534,7 @@ const metiersInfo = {
     ]
   },
 
-  "secretaire-medicale-profil.PNG": {
+  "secretaire-medicale-profil.png": {
     titre: "Secrétaire médicale",
     taches: [
       "Reçoit les appels et accueille la clientèle.",
@@ -2549,7 +2549,7 @@ const metiersInfo = {
     ]
   },
 
-  "secretaire-profil.PNG": {
+  "secretaire-profil.png": {
     titre: "Secrétaire",
     taches: [
       "Reçoit les appels et assure le service à la clientèle.",
@@ -2564,7 +2564,7 @@ const metiersInfo = {
     ]
   },
 
-  "serrurier-profil.PNG": {
+  "serrurier-profil.png": {
     titre: "Serrurier",
     taches: [
       "Installe des serrures mécaniques, des systèmes de verrouillage, des serrures électriques et des dispositifs électromagnétiques.",
@@ -2580,7 +2580,7 @@ const metiersInfo = {
     ]
   },
 
-  "serveur-profil.PNG": {
+  "serveur-profil.png": {
     titre: "Serveur",
     taches: [
       "Prend les commandes de nourritures et de boissons.",
@@ -2595,7 +2595,7 @@ const metiersInfo = {
     ]
   },
 
-  "sommelier-profil.PNG": {
+  "sommelier-profil.png": {
     titre: "Sommelier",
     taches: [
       "Conseille la clientèle sur les vins et les spiritueux.",
@@ -2610,7 +2610,7 @@ const metiersInfo = {
     ]
   },
 
-  "soudeur-haute-pression-profil.PNG": {
+  "soudeur-haute-pression-profil.png": {
     titre: "Soudeur haute pression",
     taches: [
       "Effectue les travaux préparatoires au soudage haute pression.",
@@ -2626,7 +2626,7 @@ const metiersInfo = {
     ]
   },
 
-  "soudeur-profil.PNG": {
+  "soudeur-profil.png": {
     titre: "Soudeur",
     taches: [
       "Coupe, cisaille et perce des pièces de métal.",
@@ -2642,7 +2642,7 @@ const metiersInfo = {
     ]
   },
 
-  "specialiste-des-systemes-de-chauffage-de-ventilation-et-de-climatisation-profil.PNG": {
+  "specialiste-des-systemes-de-chauffage-de-ventilation-et-de-climatisation-profil.png": {
     titre: "Spécialiste CVCA",
     taches: [
       "Effectue la conception technique de systèmes de chauffage, de ventilation, de climatisation, de plomberie et de réfrigération.",
@@ -2657,7 +2657,7 @@ const metiersInfo = {
     ]
   },
 
-  "superviseur-des-services-alimentaires-profil.PNG": {
+  "superviseur-des-services-alimentaires-profil.png": {
     titre: "Superviseur des services alimentaires",
     taches: [
       "Assure la bonne marche de la cuisine et de la salle à manger.",
@@ -2673,7 +2673,7 @@ const metiersInfo = {
     ]
   },
 
-  "surveillant-dans-la-fabrication-de-meubles-et-accessoires-profil.PNG": {
+  "surveillant-dans-la-fabrication-de-meubles-et-accessoires-profil.png": {
     titre: "Surveillant fabrication de meubles",
     taches: [
       "Dessine des meubles, des gabarits et des outils de coupe.",
@@ -2689,7 +2689,7 @@ const metiersInfo = {
     ]
   },
 
-  "surveillant-dans-la-fabrication-de-produits-en-plastique-profil.PNG": {
+  "surveillant-dans-la-fabrication-de-produits-en-plastique-profil.png": {
     titre: "Surveillant fabrication plastique",
     taches: [
       "Conçoit outils à l’ordinateur (moules, filières et gabarits).",
@@ -2705,7 +2705,7 @@ const metiersInfo = {
     ]
   },
 
-  "surveillant-dans-la-transformation-des-produits-forestiers-profil.PNG": {
+  "surveillant-dans-la-transformation-des-produits-forestiers-profil.png": {
     titre: "Surveillant transformation forestière",
     taches: [
       "Établit les normes d’un plan de transformation de produits forestiers.",
@@ -2721,7 +2721,7 @@ const metiersInfo = {
     ]
   },
 
-  "tailleur-de-pierre-profil.PNG": {
+  "tailleur-de-pierre-profil.png": {
     titre: "Tailleur de pierre",
     taches: [
       "Extrait des blocs de granite, de marbre et de calcaire des carrières.",
@@ -2737,7 +2737,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-ambulancier-profil.PNG": {
+  "technicien-ambulancier-profil.png": {
     titre: "Technicien ambulancier",
     taches: [
       "Analyse les problèmes de santé, les problèmes de dysfonctionnement ou les blessures chez les personnes en situation d’urgence.",
@@ -2752,7 +2752,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-de-bibliotheques-et-de-services-archives-publiques-profil.PNG": {
+  "technicien-de-bibliotheques-et-de-services-archives-publiques-profil.png": {
     titre: "Technicien de bibliothèques",
     taches: [
       "Référence, classe, indexe et décrit des livres, des documents audio et vidéo, ainsi que des documents administratifs dans une bibliothèque, un centre de gestion de documents et un centre d’archives.",
@@ -2767,7 +2767,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-de-laboratoire-de-sciences-physiques-profil.PNG": {
+  "technicien-de-laboratoire-de-sciences-physiques-profil.png": {
     titre: "Technicien de laboratoire",
     taches: [
       "Assiste un chercheur en physique dans la conception et la mise au point de produits de haute technologie.",
@@ -2783,7 +2783,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-amenagement-urbain-profil.PNG": {
+  "technicien-en-amenagement-urbain-profil.png": {
     titre: "Technicien en aménagement urbain",
     taches: [
       "Analyse des cartes géographiques ainsi que des données environnementales et des données socio-économiques en lien avec des problématiques d’aménagement.",
@@ -2799,7 +2799,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-aquaculture-profil.PNG": {
+  "technicien-en-aquaculture-profil.png": {
     titre: "Technicien en aquaculture",
     taches: [
       "Analyse le potentiel d’élevage d’un site (poissons et coquillages).",
@@ -2814,7 +2814,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-architecture-profil.PNG": {
+  "technicien-en-architecture-profil.png": {
     titre: "Technicien en architecture",
     taches: [
       "Réalise des dessins techniques et des dessins d’exécution selon les plans conçus par un architecte.",
@@ -2830,7 +2830,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-arpentage-profil.PNG": {
+  "technicien-en-arpentage-profil.png": {
     titre: "Technicien en arpentage",
     taches: [
       "Mesure des terrains et des bâtiments à l’aide d’outils d’arpentage (systèmes GPS, stations totales, niveaux électroniques, etc.).",
@@ -2845,7 +2845,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-assainissement-de-leau-profil.PNG": {
+  "technicien-en-assainissement-de-leau-profil.png": {
     titre: "Technicien en assainissement de l'eau",
     taches: [
       "Effectue des analyses physiques, chimiques et microbiologiques",
@@ -2863,7 +2863,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-audiovisuel-profil.PNG": {
+  "technicien-en-audiovisuel-profil.png": {
     titre: "Technicien en audiovisuel",
     taches: [
       "Installe, entretient et répare différents équipements de production et de postproduction dans les domaines de la radio, de la télévision, de la vidéo, des spectacles, des présentations multimédias, etc.",
@@ -2879,7 +2879,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-avionique-et-controle-instruments-aeronefs-profil.PNG": {
+  "technicien-en-avionique-et-controle-instruments-aeronefs-profil.png": {
     titre: "Technicien en avionique",
     taches: [
       "Vérifie le fonctionnement des différents systèmes avioniques (communication, radionavigation, distribution électrique, systèmes asservis, etc.).",
@@ -2895,7 +2895,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-bioecologie-profil.PNG": {
+  "technicien-en-bioecologie-profil.png": {
     titre: "Technicien en bioécologie",
     taches: [
       "Prélève des échantillons en milieu naturel et effectue des analyses;",
@@ -2910,7 +2910,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-comptabilite-profil.PNG": {
+  "technicien-en-comptabilite-profil.png": {
     titre: "Technicien en comptabilité",
     taches: [
       "Tient à jour et vérifie les écritures comptables à l’aide de logiciels.",
@@ -2926,7 +2926,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-ebenisterie-profil.PNG": {
+  "technicien-en-ebenisterie-profil.png": {
     titre: "Technicien en ébénisterie",
     taches: [
       "Dessine les plans et conçoit des prototypes (meubles, armoires, portes, éléments architecturaux, etc.).",
@@ -2942,7 +2942,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-electronique-profil.PNG": {
+  "technicien-en-electronique-profil.png": {
     titre: "Technicien en électronique",
     taches: [
       "Entretien et répare de l’équipement informatique, audiovisuel et de télécommunication.",
@@ -2958,7 +2958,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-electronique-telecommunication-profil.PNG": {
+  "technicien-en-electronique-telecommunication-profil.png": {
     titre: "Technicien en électronique télécom",
     taches: [
       "Installe et met en service des réseaux de télécommunication (par fil, optique et sans-fil).",
@@ -2974,7 +2974,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-genie-aerospatial-profil.PNG": {
+  "technicien-en-genie-aerospatial-profil.png": {
     titre: "Technicien en génie aérospatial",
     taches: [
       "Participe à la conception des pièces de moteurs et des composants de structures d’aéronefs.",
@@ -2990,7 +2990,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-genie-civil-profil.PNG": {
+  "technicien-en-genie-civil-profil.png": {
     titre: "Technicien en génie civil",
     taches: [
       "Réalise des plans détaillés pour des projets d’infrastructures (routes, services publics, etc.) et des projets de structures de bâtiments.",
@@ -3006,7 +3006,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-genie-mecanique-profil.PNG": {
+  "technicien-en-genie-mecanique-profil.png": {
     titre: "Technicien en génie mécanique",
     taches: [
       "Dessine des plans de pièces mécaniques ou de pièces de machinerie.",
@@ -3021,7 +3021,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-geologie-et-en-mineralogie-profil.PNG": {
+  "technicien-en-geologie-et-en-mineralogie-profil.png": {
     titre: "Technicien en géologie et minéralogie",
     taches: [
       "Cartographie et échantillonne des zones minéralisées, contrôle la stabilité du terrain.",
@@ -3036,7 +3036,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-geomatique-profil.PNG": {
+  "technicien-en-geomatique-profil.png": {
     titre: "Technicien en géomatique",
     taches: [
       "Effectue des mesures sur le terrain.",
@@ -3051,7 +3051,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-informatique-de-gestion-profil.PNG": {
+  "technicien-en-informatique-de-gestion-profil.png": {
     titre: "Technicien en informatique de gestion",
     taches: [
       "Développe, conçoit et implante des outils informatiques de gestion d’une organisation (applications bureautiques, outils internet, base de données, etc.).",
@@ -3066,7 +3066,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-informatique-gestion-de-reseaux-profil.PNG": {
+  "technicien-en-informatique-gestion-de-reseaux-profil.png": {
     titre: "Technicien en gestion de réseaux",
     taches: [
       "Participe à la conception des réseaux informatiques.",
@@ -3081,7 +3081,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-informatique-programmeur-analyste-profil.PNG": {
+  "technicien-en-informatique-programmeur-analyste-profil.png": {
     titre: "Technicien programmeur-analyste",
     taches: [
       "Participe à la conception de programmes informatiques pour des ordinateurs et des appareils mobiles : base de données, jeux vidéo, web, etc.",
@@ -3096,7 +3096,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-logistique-du-transport-profil.PNG": {
+  "technicien-en-logistique-du-transport-profil.png": {
     titre: "Technicien en logistique du transport",
     taches: [
       "Organise les itinéraires et les horaires des services de transport de personnes.",
@@ -3111,7 +3111,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-maintenance-industrielle-profil.PNG": {
+  "technicien-en-maintenance-industrielle-profil.png": {
     titre: "Technicien en maintenance industrielle",
     taches: [
       "Calibre et ajuste des instruments de mesure et des commandes industrielles.",
@@ -3127,7 +3127,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-metallurgie-profil.PNG": {
+  "technicien-en-metallurgie-profil.png": {
     titre: "Technicien en métallurgie",
     taches: [
       "Participe à la production des métaux et des alliages (acier et aluminium).",
@@ -3142,7 +3142,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-museologie-profil.PNG": {
+  "technicien-en-museologie-profil.png": {
     titre: "Technicien en muséologie",
     taches: [
       "Assure la protection et met en valeur des objets de collection à caractère scientifique, patrimonial, artistique et audiovisuel.",
@@ -3158,7 +3158,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-orthse-visuelle-profil.PNG": {
+  "technicien-en-orthse-visuelle-profil.png": {
     titre: "Technicien en orthèse visuelle",
     taches: [
       "Détermine les spécifications des lunettes et des lentilles cornéennes à partir d'ordonnances",
@@ -3174,7 +3174,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-prevention-dincendies-profil.PNG": {
+  "technicien-en-prevention-dincendies-profil.png": {
     titre: "Technicien en prévention d'incendies",
     taches: [
       "Combat les incendies dans des situations complexes : installations souterraines, zone à accès limité, parc industriel d’envergure, par exemple.",
@@ -3190,7 +3190,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-production-agricole-et-horticole-profil.PNG": {
+  "technicien-en-production-agricole-et-horticole-profil.png": {
     titre: "Technicien en production agricole",
     taches: [
       "Planifie la mise en production d’une culture conventionnelle ou biologique.",
@@ -3206,7 +3206,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-production-pharmaceutique-profil.PNG": {
+  "technicien-en-production-pharmaceutique-profil.png": {
     titre: "Technicien en production pharmaceutique",
     taches: [
       "Prépare des matières premières et des mélanges.",
@@ -3222,7 +3222,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-radiotelediffusion-profil.PNG": {
+  "technicien-en-radiotelediffusion-profil.png": {
     titre: "Technicien en radiotélédiffusion",
     taches: [
       "Participe aux étapes de préproduction d’une émission.",
@@ -3237,7 +3237,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-science-forestiere-profil.PNG": {
+  "technicien-en-science-forestiere-profil.png": {
     titre: "Technicien en science forestière",
     taches: [
       "Inventorie et analyse l’état de la forêt.",
@@ -3253,7 +3253,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-transformation-de-materiaux-composites-profil.PNG": {
+  "technicien-en-transformation-de-materiaux-composites-profil.png": {
     titre: "Technicien en matériaux composites",
     taches: [
       "Dessine des croquis de pièces à mouler.",
@@ -3269,7 +3269,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-travail-social-profil.PNG": {
+  "technicien-en-travail-social-profil.png": {
     titre: "Technicien en travail social",
     taches: [
       "Accompagne des groupes, des familles et des personnes présentant des problèmes personnels, familiaux et sociaux.",
@@ -3285,7 +3285,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-en-travaux-miniers-profil.PNG": {
+  "technicien-en-travaux-miniers-profil.png": {
     titre: "Technicien en travaux miniers",
     taches: [
       "Planifie et supervise activités des travailleurs des mines et de carrières.",
@@ -3301,7 +3301,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicien-juridique-profil.PNG": {
+  "technicien-juridique-profil.png": {
     titre: "Technicien juridique",
     taches: [
       "Rédige des projets de documents juridiques (testaments, contrats, procédures administratives, etc.).",
@@ -3317,7 +3317,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-de-dossiers-medicaux-profil.PNG": {
+  "technicienne-de-dossiers-medicaux-profil.png": {
     titre: "Technicienne de dossiers médicaux",
     taches: [
       "Analyse des dossiers médicaux (pathologie, anatomie, problèmes psychosociaux, oncologie, etc.).",
@@ -3332,7 +3332,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-de-laboratoire-medical-profil.PNG": {
+  "technicienne-de-laboratoire-medical-profil.png": {
     titre: "Technicienne de laboratoire médical",
     taches: [
       "Prépare le matériel de laboratoire et les échantillons.",
@@ -3348,7 +3348,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-dentaire-profil.PNG": {
+  "technicienne-dentaire-profil.png": {
     titre: "Technicienne dentaire",
     taches: [
       "Confectionne des prothèses buccales fixes et amovibles.",
@@ -3363,7 +3363,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-en-bureautique-profil.PNG": {
+  "technicienne-en-bureautique-profil.png": {
     titre: "Technicienne en bureautique",
     taches: [
       "Reçoit les appels et assure le service à la clientèle.",
@@ -3379,7 +3379,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-en-chimie-analytique-profil.PNG": {
+  "technicienne-en-chimie-analytique-profil.png": {
     titre: "Technicienne en chimie analytique",
     taches: [
       "Prépare le matériel de laboratoire et les échantillons;",
@@ -3395,7 +3395,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-en-dietetique-profil.PNG": {
+  "technicienne-en-dietetique-profil.png": {
     titre: "Technicienne en diététique",
     taches: [
       "Contrôle la qualité des produits alimentaires et des emballages.",
@@ -3410,7 +3410,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-en-education-specialisee-profil.PNG": {
+  "technicienne-en-education-specialisee-profil.png": {
     titre: "Technicienne en éducation spécialisée",
     taches: [
       "Apprend aux élèves avec des troubles d’apprentissage à lire et à écrire.",
@@ -3426,7 +3426,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-en-physiotherapie-profil.PNG": {
+  "technicienne-en-physiotherapie-profil.png": {
     titre: "Technicienne en physiothérapie",
     taches: [
       "Interprète l’information sur la santé des personnes avec des limitations fonctionnelles.",
@@ -3442,7 +3442,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-en-protheses-auditives-profil.PNG": {
+  "technicienne-en-protheses-auditives-profil.png": {
     titre: "Technicienne en prothèses auditives",
     taches: [
       "Rencontre les patients, analyse leurs besoins et établit leur profil audiométrique.",
@@ -3457,7 +3457,7 @@ const metiersInfo = {
     ]
   },
 
-  "technicienne-en-sante-animale-profil.PNG": {
+  "technicienne-en-sante-animale-profil.png": {
     titre: "Technicienne en santé animale",
     taches: [
       "S’occupe d’une animalerie.",
@@ -3473,7 +3473,7 @@ const metiersInfo = {
     ]
   },
 
-  "technologue-architecture-navale-profil.PNG": {
+  "technologue-architecture-navale-profil.png": {
     titre: "Technologue en architecture navale",
     taches: [
       "Dessine des plans de différents types de structures flottantes (bateaux, navires marchands, embarcations de plaisance, etc.).",
@@ -3488,7 +3488,7 @@ const metiersInfo = {
     ]
   },
 
-  "technologue-en-accessoires-orthopediques-profil.PNG": {
+  "technologue-en-accessoires-orthopediques-profil.png": {
     titre: "Technologue en accessoires orthopédiques",
     taches: [
       "Interprète les ordonnances des médecins.",
@@ -3504,7 +3504,7 @@ const metiersInfo = {
     ]
   },
 
-  "technologue-en-electrophysiologie-diagnostique-profil.PNG": {
+  "technologue-en-electrophysiologie-diagnostique-profil.png": {
     titre: "Technologue en électrophysiologie",
     taches: [
       "Effectue des enregistrements avec des appareils électroniques pour capter l’activité cardiaque et cérébrale des patients.",
@@ -3520,7 +3520,7 @@ const metiersInfo = {
     ]
   },
 
-  "technologue-en-genie-industriel-profil.PNG": {
+  "technologue-en-genie-industriel-profil.png": {
     titre: "Technologue en génie industriel",
     taches: [
       "Détermine le potentiel de différentes technologies pour des fins de production.",
@@ -3536,7 +3536,7 @@ const metiersInfo = {
     ]
   },
 
-  "technologue-en-geologie-profil.PNG": {
+  "technologue-en-geologie-profil.png": {
     titre: "Technologue en géologie",
     taches: [
       "Effectue des travaux de recherche de gîtes minéraux.",
@@ -3552,7 +3552,7 @@ const metiersInfo = {
     ]
   },
 
-  "technologue-en-imagerie-medicale-profil.PNG": {
+  "technologue-en-imagerie-medicale-profil.png": {
     titre: "Technologue en imagerie médicale",
     taches: [
       "Prépare et accompagne les patients pendant les examens.",
@@ -3568,7 +3568,7 @@ const metiersInfo = {
     ]
   },
 
-  "technologue-en-mineralogie-profil.PNG": {
+  "technologue-en-mineralogie-profil.png": {
     titre: "Technologue en minéralogie",
     taches: [
       "Participe au développement de procédés de traitement de minerais (broyage, flottation, bouletage, par exemple).",
@@ -3583,7 +3583,7 @@ const metiersInfo = {
     ]
   },
 
-  "thanatologue-profil.PNG": {
+  "thanatologue-profil.png": {
     titre: "Thanatologue",
     taches: [
       "Accueille et conseille les familles en deuil quant aux dispositions funéraires.",
@@ -3599,7 +3599,7 @@ const metiersInfo = {
     ]
   },
 
-  "tolier-de-precision-profil.PNG": {
+  "tolier-de-precision-profil.png": {
     titre: "Tôlier de précision",
     taches: [
       "Programme des machines-outils;",
@@ -3614,7 +3614,7 @@ const metiersInfo = {
     ]
   },
 
-  "vitrier-profil.PNG": {
+  "vitrier-profil.png": {
     titre: "Vitrier",
     taches: [
       "Fabrique des fenêtres et des portes.",

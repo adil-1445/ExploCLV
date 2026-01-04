@@ -7,6 +7,8 @@
     <title>(AEP) (DEP) (ASP) (DEC)</title>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script> -->
     <link rel="stylesheet" href="Assets/activites-complementaires.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.css" />
+    <script src="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js"></script>
     <style>
         * {
             margin: 0;
@@ -40,7 +42,7 @@
         .navbar-left {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 5px;
         }
 
         .navbar-right {
@@ -118,7 +120,7 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border: none;
             color: white;
-            padding: 8px 16px;
+            padding: 8px 10px;
             border-radius: 25px;
             cursor: pointer;
             font-size: 0.8em;
@@ -127,7 +129,7 @@
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
             text-align: center;
             line-height: 1.2;
-            min-width: 120px;
+            min-width: auto;
         }
 
         .menu-button:hover {
@@ -711,6 +713,128 @@
                 margin: 15px auto 0;
             }
         }
+
+        /* Driver.js Customization - Guide Style */
+        .driver-popover {
+            background-color: white !important;
+            color: #333 !important;
+            padding: 20px 40px !important;
+            border-radius: 0 !important;
+
+            /* Force full width bottom bar */
+            position: fixed !important;
+            bottom: 0 !important;
+            top: auto !important;
+            left: 0 !important;
+            right: 0 !important;
+            width: 100vw !important;
+            max-width: none !important;
+            transform: none !important;
+
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15) !important;
+            z-index: 100000000 !important;
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .driver-popover-arrow {
+            display: none !important;
+        }
+
+        .driver-popover-title {
+            color: #2c3e50 !important;
+            font-size: 1.6em !important;
+            margin-bottom: 10px !important;
+            font-weight: bold !important;
+        }
+
+        .driver-popover-description {
+            color: #555 !important;
+            font-size: 1.1em !important;
+            margin-bottom: 20px !important;
+            max-width: 800px;
+            line-height: 1.5 !important;
+        }
+
+        .driver-popover-footer {
+            margin-top: 15px !important;
+            display: flex !important;
+            flex-direction: row !important;
+            gap: 15px !important;
+            justify-content: center !important;
+            align-items: center !important;
+            width: 100% !important;
+            flex-wrap: wrap !important;
+            /* Handle small screens */
+        }
+
+        /* Group Navigation buttons if driver.js wraps them */
+        .driver-popover-footer>span,
+        .driver-popover-footer>div {
+            display: flex !important;
+            gap: 15px !important;
+            align-items: center !important;
+        }
+
+        .driver-popover-progress-text {
+            position: static !important;
+            font-size: 0.9em !important;
+            color: #555 !important;
+            margin-right: 20px !important;
+            order: -1 !important;
+            /* Force to the left */
+        }
+
+        /* Target ALL driver buttons explicitly */
+        .driver-popover-btn,
+        .driver-popover-prev-btn,
+        .driver-popover-next-btn,
+        .driver-popover-done-btn,
+        .driver-popover-close-btn {
+            /* Close btn is hidden but good to have class just in case */
+            background: linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%) !important;
+            color: white !important;
+            border: none !important;
+            text-shadow: none !important;
+            padding: 10px 25px !important;
+            border-radius: 25px !important;
+            font-size: 1em !important;
+            font-weight: bold !important;
+            cursor: pointer !important;
+            transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+            box-shadow: 0 4px 10px rgba(238, 90, 111, 0.3) !important;
+            text-decoration: none !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            min-width: 120px !important;
+            /* Ensure consistent width */
+        }
+
+        .driver-popover-btn:hover,
+        .driver-popover-prev-btn:hover,
+        .driver-popover-next-btn:hover,
+        .driver-popover-done-btn:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 6px 15px rgba(238, 90, 111, 0.4) !important;
+            background-color: #EE5A6F !important;
+        }
+
+        /* Specific override to hide close button again just to be sure */
+        .driver-popover-close-btn {
+            display: none !important;
+        }
+
+        /* Disabled state styling */
+        .driver-popover-btn:disabled,
+        .driver-popover-prev-btn:disabled,
+        .driver-popover-next-btn:disabled {
+            opacity: 0.5 !important;
+            cursor: not-allowed !important;
+            transform: none !important;
+        }
     </style>
 </head>
 
@@ -725,13 +849,12 @@
             <img src="Assets/logo_ifp3.jpg" alt="Logo IFP3" class="navbar-logo" onerror="this.style.display='none'">
             <!-- Retour -->
             <button class="menu-button" onclick="goToSectors()">
-                <span style="margin-right: 5px;">🏠</span>
                 Retour aux<br>21 secteurs
             </button>
-            <!-- ressources -->
-            <div class="dropdown">
+            <!-- wrapper for tour guide -->
+            <div id="tour-resources-stages" style="display:flex; align-items:center; gap:5px;">
+                <!-- ressources -->
                 <button class="menu-button" onclick="toggleDropdown()">
-                    <span style="margin-right: 5px;">🌐</span>
                     Ressources
                 </button>
                 <div class="dropdown-content" id="resourcesDropdown">
@@ -822,275 +945,266 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <!-- Stage -->
-            <div class="dropdown">
-                <button class="menu-button" onclick="toggleStageDropdown()">
-                    <span style="margin-right: 5px;">🎯</span>
-                    Stages
-                </button>
-                <div class="dropdown-content" id="stageDropdown">
-                    <!------- CSSPI ----->
-                    <a href="https://fp.csspi.ca/eleve_un_jour.php" target="_blank" data-icon="🏠"
-                        style="position: relative;">
-                        CSSPI – Élève d'un jour
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/CSSPI_Eleve1jour.png" alt="Aperçu CSSPI Formation Professionnelle"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!------- Militaire ----->
-                    <a href="https://www.jeunes-explorateurs.org/professions-militaires/" target="_blank" data-icon="🪖"
-                        style="position: relative;">
-                        Stage Militaire
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Militaire.png" alt="Aperçu CSSPI Formation Professionnelle"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!------- Jeunes Explo ----->
-                    <a href="https://www.jeunes-explorateurs.org/" target="_blank" data-icon="🎓"
-                        style="position: relative;">
-                        Jeunes Explo
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/JeunesExplo.png" alt="Aperçu CSSPI Formation Professionnelle"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!------- Reperes ----->
-                    <a href="https://consultation.reperes.qc.ca/asp/Reperes.aspx?jlrun=reperes.menu.Asm&jlsid=1"
-                        target="_blank" data-icon="🔑" style="position: relative;">
-                        Repères(code/pwd ta Fiche)
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Reperes.png" alt="Aperçu Compétences Québec"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
 
-                    <!------- LA FP À LAVAL ----->
-                    <a href="https://macarrieresedessine.com/eleve-dun-jour/#1528892872132-2c06e1f0-5ad84b41-107906f5-086df130-c18e"
-                        target="_blank" data-icon="🌿" style="position: relative;">
-                        LA FP À LAVAL
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/CSSL_Eleve1jour.png" alt="Aperçu Compétences Québec"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!------- Équipement motorisé Mtl ----->
-                    <a href="https://ecole-metiers-motorise.cssdm.gouv.qc.ca/futurs-eleves/eleve-jour/" target="_blank"
-                        data-icon="🚗" style="position: relative;">
-                        Équipement motorisé Mtl
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/EquipementMotoriseMTL.png" alt="Aperçu Compétences Québec"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!------- Trouver un mentor ----->
-                    <a href="https://academos.qc.ca/mentors/trouver-mentors/" target="_blank" data-icon="🧑‍🤝‍🧑"
-                        style="position: relative;">
-                        Trouver un mentor
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/TrouverUnMentor.png" alt="Aperçu Compétences Québec"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!------- GuichetEmploisCA ----->
-                    <a href="https://www.guichetemplois.gc.ca/planification-carriere/questionnaires" target="_blank"
-                        data-icon="📝" style="position: relative;">
-                        Guichet Emplois Canada
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/GuichetEmploisCA.png" alt="Aperçu Compétences Québec"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
+                <!-- Stage -->
+                <div class="dropdown">
+                    <button class="menu-button" onclick="toggleStageDropdown()">
+                        Stages
+                    </button>
+                    <div class="dropdown-content" id="stageDropdown">
+                        <!------- CSSPI ----->
+                        <a href="https://fp.csspi.ca/eleve_un_jour.php" target="_blank" data-icon="🏠"
+                            style="position: relative;">
+                            CSSPI – Élève d'un jour
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/CSSPI_Eleve1jour.png"
+                                    alt="Aperçu CSSPI Formation Professionnelle" onerror="this.style.display='none';">
+                            </div>
+                        </a>
+                        <!------- Militaire ----->
+                        <a href="https://www.jeunes-explorateurs.org/professions-militaires/" target="_blank"
+                            data-icon="🪖" style="position: relative;">
+                            Stage Militaire
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/Militaire.png" alt="Aperçu CSSPI Formation Professionnelle"
+                                    onerror="this.style.display='none';">
+                            </div>
+                        </a>
+                        <!------- Jeunes Explo ----->
+                        <a href="https://www.jeunes-explorateurs.org/" target="_blank" data-icon="🎓"
+                            style="position: relative;">
+                            Jeunes Explo
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/JeunesExplo.png" alt="Aperçu CSSPI Formation Professionnelle"
+                                    onerror="this.style.display='none';">
+                            </div>
+                        </a>
+                        <!------- Reperes ----->
+                        <a href="https://consultation.reperes.qc.ca/asp/Reperes.aspx?jlrun=reperes.menu.Asm&jlsid=1"
+                            target="_blank" data-icon="🔑" style="position: relative;">
+                            Repères(code/pwd ta Fiche)
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/Reperes.png" alt="Aperçu Compétences Québec"
+                                    onerror="this.style.display='none';">
+                            </div>
+                        </a>
+
+                        <!------- LA FP À LAVAL ----->
+                        <a href="https://macarrieresedessine.com/eleve-dun-jour/#1528892872132-2c06e1f0-5ad84b41-107906f5-086df130-c18e"
+                            target="_blank" data-icon="🌿" style="position: relative;">
+                            LA FP À LAVAL
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/CSSL_Eleve1jour.png" alt="Aperçu Compétences Québec"
+                                    onerror="this.style.display='none';">
+                            </div>
+                        </a>
+                        <!------- Équipement motorisé Mtl ----->
+                        <a href="https://ecole-metiers-motorise.cssdm.gouv.qc.ca/futurs-eleves/eleve-jour/"
+                            target="_blank" data-icon="🚗" style="position: relative;">
+                            Équipement motorisé Mtl
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/EquipementMotoriseMTL.png" alt="Aperçu Compétences Québec"
+                                    onerror="this.style.display='none';">
+                            </div>
+                        </a>
+                        <!------- Trouver un mentor ----->
+                        <a href="https://academos.qc.ca/mentors/trouver-mentors/" target="_blank" data-icon="🧑‍🤝‍🧑"
+                            style="position: relative;">
+                            Trouver un mentor
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/TrouverUnMentor.png" alt="Aperçu Compétences Québec"
+                                    onerror="this.style.display='none';">
+                            </div>
+                        </a>
+                        <!------- GuichetEmploisCA ----->
+                        <a href="https://www.guichetemplois.gc.ca/planification-carriere/questionnaires" target="_blank"
+                            data-icon="📝" style="position: relative;">
+                            Guichet Emplois Canada
+                            <div class="resource-preview">
+                                <img src="RessourcesIMG/GuichetEmploisCA.png" alt="Aperçu Compétences Québec"
+                                    onerror="this.style.display='none';">
+                            </div>
+                        </a>
 
 
+                    </div>
                 </div>
             </div>
-            <!--  Activités  -->
-            <div class="dropdown">
-                <button class="menu-button" onclick="toggleActivitesDropdown()">
-                    <span style="margin-right:5px;">📝</span>
-                    Activités
-                </button>
-                <div class="dropdown-content" id="activitesDropdown">
-                    <a href="#" onclick="return showActivity('20t1-secteurs');" data-icon="📂"
-                        style="position: relative;">
-                        20T1 secteurs
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/20T1-secteurs.png" alt="Aperçu 20T1 secteurs"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
+        </div> <!-- End of tour wrapper -->
+        </div> <!-- End of navbar-left -->
+        <!--  Activités  -->
+        <div class="dropdown">
+            <button class="menu-button" onclick="toggleActivitesDropdown()">
+                Activités
+            </button>
+            <div class="dropdown-content" id="activitesDropdown">
+                <a href="#" onclick="return showActivity('20t1-secteurs');" data-icon="📂" style="position: relative;">
+                    20T1 secteurs
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/20T1-secteurs.png" alt="Aperçu 20T1 secteurs"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
 
-                    <a href="#" onclick="return showActivity('mon-avatar');" data-icon="🧑" style="position: relative;">
-                        Mon avatar
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Mon-avatar.png" alt="Aperçu Mon avatar"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
+                <a href="#" onclick="return showActivity('mon-avatar');" data-icon="🧑" style="position: relative;">
+                    Mon avatar
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Mon-avatar.png" alt="Aperçu Mon avatar"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
 
-                    <a href="#" onclick="return showActivity('mythes-et-realites');" data-icon="❓"
-                        style="position: relative;">
-                        Mythes et réalités
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Mythes-et-realites.png" alt="Aperçu Mythes et réalités"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <a href="#" onclick="return showActivity('RIASEC');" data-icon="🔎" style="position: relative;">
-                        RIASEC
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/RIASEC.png" alt="Aperçu RIASEC"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <a href="#" onclick="return showActivity('fp360');" data-icon="🧭" style="position: relative;">
-                        FP360
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/FP360.png" alt="Aperçu FP360" onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <a href="#" onclick="return showActivity('systeme-scolaire');" data-icon="🏫"
-                        style="position: relative;">
-                        Système scolaire
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Systeme-scolaire.png" alt="Aperçu Système scolaire"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                </div>
+                <a href="#" onclick="return showActivity('mythes-et-realites');" data-icon="❓"
+                    style="position: relative;">
+                    Mythes et réalités
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Mythes-et-realites.png" alt="Aperçu Mythes et réalités"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <a href="#" onclick="return showActivity('RIASEC');" data-icon="🔎" style="position: relative;">
+                    RIASEC
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/RIASEC.png" alt="Aperçu RIASEC" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <a href="#" onclick="return showActivity('fp360');" data-icon="🧭" style="position: relative;">
+                    FP360
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/FP360.png" alt="Aperçu FP360" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <a href="#" onclick="return showActivity('systeme-scolaire');" data-icon="🏫"
+                    style="position: relative;">
+                    Système scolaire
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Systeme-scolaire.png" alt="Aperçu Système scolaire"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
             </div>
-            <!-- les2jours -->
-            <div class="dropdown">
-                <button class="menu-button" onclick="toggleLes2joursDesExplosDropdown()">
-                    <span style="margin-right:5px;">📝</span>
-                    les 2jours<br>des Explos
-                </button>
-                <div class="dropdown-content" id="Les2joursDesExplosDropdown">
-                    <!-- Boulangerie -->
-                    <a href="#" onclick="return showActivity('Boulangerie');" data-icon="📂"
-                        style="position: relative;">
-                        Boulangerie
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Boulangerie.png" alt="Boulangerie"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Boulangerie -->
-                    <!-- Cuisine -->
-                    <a href="#" onclick="return showActivity('Cuisine');" data-icon="📂" style="position: relative;">
-                        Cuisine
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/cuisine.png" alt="Cuisine" onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Cuisine -->
-                    <!-- Pâtisserie -->
-                    <a href="#" onclick="return showActivity('Patisserie');" data-icon="📂" style="position: relative;">
-                        Pâtisserie
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/PÂTISSERIE.png" alt="Pâtisserie"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Pâtisserie -->
-                    <!-- SoudageMontage -->
-                    <a href="#" onclick="return showActivity('SoudageMontage');" data-icon="📂"
-                        style="position: relative;">
-                        Soudage Montage
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/SoudageMontage.png" alt="SoudageMontage"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Soudage Montage -->
-                    <!-- VenteConseilVehiculesAutomobiles -->
-                    <a href="#" onclick="return showActivity('VenteConseilVehiculesAutomobiles');" data-icon="📂"
-                        style="position: relative;">
-                        Vente Conseil Vehicules Automobiles
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/VenteConseilVehiculesAutomobiles.png"
-                                alt="VenteConseilVehiculesAutomobiles" onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN VenteConseilVehiculesAutomobiles -->
-                    <!-- PoseArmatureDeBeton -->
-                    <a href="#" onclick="return showActivity('PoseArmatureDeBeton');" data-icon="📂"
-                        style="position: relative;">
-                        Pose Armature De Béton
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/PoseDarmatureDeBéton.png" alt="Pose Armature De Béton"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN PoseArmatureDeBeton -->
-                    <!-- MecaniqueAuto -->
-                    <a href="#" onclick="return showActivity('MecaniqueAuto');" data-icon="📂"
-                        style="position: relative;">
-                        Mécanique Auto
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/MécaniqueAuto.png" alt="Mécanique Auto"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN MecaniqueAuto -->
-                    <!-- PlomberieChauffage -->
-                    <a href="#" onclick="return showActivity('PlomberieChauffage');" data-icon="📂"
-                        style="position: relative;">
-                        Plomberie-chauffage
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Plomberie-chauffage.png" alt="Plomberie-chauffage"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN PlomberieChauffage -->
-                    <!-- Secretariat -->
-                    <a href="#" onclick="return showActivity('Secretariat');" data-icon="📂"
-                        style="position: relative;">
-                        Secrétariat
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Secrétariat.png" alt="Secrétariat Compta"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Secretariat -->
-                    <!-- Compta -->
-                    <a href="#" onclick="return showActivity('Compta');" data-icon="📂" style="position: relative;">
-                        Comptabilité
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Comptabilité.png" alt="Compta" onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Compta -->
-                    <!-- Coiffure -->
-                    <a href="#" onclick="return showActivity('Coiffure');" data-icon="📂" style="position: relative;">
-                        Coiffure
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Coiffure.png" alt="Coiffure" onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Coiffure -->
-                    <!-- Esthetique -->
-                    <a href="#" onclick="return showActivity('Esthetique');" data-icon="📂" style="position: relative;">
-                        Esthétique
-                        <div class="resource-preview">
-                            <img src="RessourcesIMG/Esthétique.png" alt="Esthétique"
-                                onerror="this.style.display='none';">
-                        </div>
-                    </a>
-                    <!-- FIN Esthetique -->
-
-
-                </div>
-
-
-
-
+        </div>
+        <!-- les2jours -->
+        <div class="dropdown">
+            <button class="menu-button" onclick="toggleLes2joursDesExplosDropdown()">
+                les 2jours<br>des Explos
+            </button>
+            <div class="dropdown-content" id="Les2joursDesExplosDropdown">
+                <!-- Boulangerie -->
+                <a href="#" onclick="return showActivity('Boulangerie');" data-icon="📂" style="position: relative;">
+                    Boulangerie
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Boulangerie.png" alt="Boulangerie" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Boulangerie -->
+                <!-- Cuisine -->
+                <a href="#" onclick="return showActivity('Cuisine');" data-icon="📂" style="position: relative;">
+                    Cuisine
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/cuisine.png" alt="Cuisine" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Cuisine -->
+                <!-- Pâtisserie -->
+                <a href="#" onclick="return showActivity('Patisserie');" data-icon="📂" style="position: relative;">
+                    Pâtisserie
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/PÂTISSERIE.png" alt="Pâtisserie" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Pâtisserie -->
+                <!-- SoudageMontage -->
+                <a href="#" onclick="return showActivity('SoudageMontage');" data-icon="📂" style="position: relative;">
+                    Soudage Montage
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/SoudageMontage.png" alt="SoudageMontage"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Soudage Montage -->
+                <!-- VenteConseilVehiculesAutomobiles -->
+                <a href="#" onclick="return showActivity('VenteConseilVehiculesAutomobiles');" data-icon="📂"
+                    style="position: relative;">
+                    Vente Conseil Vehicules Automobiles
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/VenteConseilVehiculesAutomobiles.png"
+                            alt="VenteConseilVehiculesAutomobiles" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN VenteConseilVehiculesAutomobiles -->
+                <!-- PoseArmatureDeBeton -->
+                <a href="#" onclick="return showActivity('PoseArmatureDeBeton');" data-icon="📂"
+                    style="position: relative;">
+                    Pose Armature De Béton
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/PoseDarmatureDeBéton.png" alt="Pose Armature De Béton"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN PoseArmatureDeBeton -->
+                <!-- MecaniqueAuto -->
+                <a href="#" onclick="return showActivity('MecaniqueAuto');" data-icon="📂" style="position: relative;">
+                    Mécanique Auto
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/MécaniqueAuto.png" alt="Mécanique Auto"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN MecaniqueAuto -->
+                <!-- PlomberieChauffage -->
+                <a href="#" onclick="return showActivity('PlomberieChauffage');" data-icon="📂"
+                    style="position: relative;">
+                    Plomberie-chauffage
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Plomberie-chauffage.png" alt="Plomberie-chauffage"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN PlomberieChauffage -->
+                <!-- Secretariat -->
+                <a href="#" onclick="return showActivity('Secretariat');" data-icon="📂" style="position: relative;">
+                    Secrétariat
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Secrétariat.png" alt="Secrétariat Compta"
+                            onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Secretariat -->
+                <!-- Compta -->
+                <a href="#" onclick="return showActivity('Compta');" data-icon="📂" style="position: relative;">
+                    Comptabilité
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Comptabilité.png" alt="Compta" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Compta -->
+                <!-- Coiffure -->
+                <a href="#" onclick="return showActivity('Coiffure');" data-icon="📂" style="position: relative;">
+                    Coiffure
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Coiffure.png" alt="Coiffure" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Coiffure -->
+                <!-- Esthetique -->
+                <a href="#" onclick="return showActivity('Esthetique');" data-icon="📂" style="position: relative;">
+                    Esthétique
+                    <div class="resource-preview">
+                        <img src="RessourcesIMG/Esthétique.png" alt="Esthétique" onerror="this.style.display='none';">
+                    </div>
+                </a>
+                <!-- FIN Esthetique -->
 
 
             </div>
+
+
+
+
+
+
+        </div>
 
 
 
@@ -1110,6 +1224,18 @@
                 style="cursor: pointer;">DEC</span>
         </h1>
         <div class="navbar-right">
+            <!-- Guide Dropdown -->
+            <div class="dropdown">
+                <button class="menu-button" onclick="toggleGuideDropdown()"
+                    style="margin-right: 5px; background: linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%);">
+                    Aide
+                </button>
+                <div class="dropdown-content" id="guideDropdown" style="left: auto; right: 0;">
+                    <a href="#" onclick="startTour(); return false;" data-icon="🖱️">Guide interactif</a>
+                    <a href="#" onclick="alert('À venir'); return false;" data-icon="📄">Guide pdf (avenir)</a>
+                    <a href="#" onclick="alert('À venir'); return false;" data-icon="🎥">Guide vidéo (avenir)</a>
+                </div>
+            </div>
             <img src="Assets/logo_calixa.jpg" alt="Logo Calixa" class="navbar-logo" onerror="this.style.display='none'">
         </div>
     </nav>
@@ -3826,6 +3952,20 @@
             el.classList.toggle("show");
         }
 
+        // Fonction pour toggle le dropdown Guide
+        function toggleGuideDropdown() {
+            const el = document.getElementById("guideDropdown");
+            el.classList.toggle("show");
+
+            // Fermer les autres dropdowns si nécessaire
+            const dropdowns = document.getElementsByClassName('dropdown-content');
+            for (let i = 0; i < dropdowns.length; i++) {
+                if (dropdowns[i].id !== 'guideDropdown' && dropdowns[i].classList.contains('show')) {
+                    dropdowns[i].classList.remove('show');
+                }
+            }
+        }
+
 
         // Fermer le dropdown si on clique ailleurs
         window.addEventListener('click', function (event) {
@@ -4089,6 +4229,7 @@
     <!-- ==============================================================================================================-->
 
     <script src="Assets/activites-complementaires.js"></script>
+    <script src="Assets/tour-guide.js"></script>
 </body>
 
 </html>
